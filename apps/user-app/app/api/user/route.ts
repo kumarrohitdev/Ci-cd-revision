@@ -9,6 +9,9 @@ export const GET = async () => {
             user: session.user
         })
     }
+
+
+    
     return NextResponse.json({
         message: "You are not logged in"
     }, {
